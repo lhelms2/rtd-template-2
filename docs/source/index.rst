@@ -26,6 +26,7 @@ You can also browse the full list of NCSA's `HPC-Moodle Self-Paced Tutorials <ht
 .. toctree::
    :maxdepth: 2
 
+   status_updates
    quick_start
    FAQ
    support_services
