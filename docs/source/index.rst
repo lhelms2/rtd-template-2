@@ -26,7 +26,7 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: Basics
+   :caption:
 
    quick_start
    FAQ
