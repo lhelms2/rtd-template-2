@@ -5,6 +5,8 @@ Getting Help
 
 To review frequently asked questions, see :ref:`FAQ`.
 
-For help with X, email Y.
+Here's how to submit support requests:
 
-For help with Z, email A.
+To submit a support request with X, email Y. Include, Z in the title and A, B, and C in the email.
+
+For help with D issues, see: E.
