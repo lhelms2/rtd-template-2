@@ -41,6 +41,6 @@ html_static_path = ['_static']
 # html_logo = "_static/BlockI-NCSA-Full-Color-RGB_2.png"
 html_logo = "_static/SUPER_FullColor_RGB.png"
 html_theme_options = {
-    'logo_only': True,
+    'logo_only': False,
     'display_version': False,
 }
