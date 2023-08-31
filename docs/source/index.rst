@@ -29,7 +29,7 @@ You can also browse the full list of NCSA's `HPC-Moodle Self-Paced Tutorials <ht
 
    status_updates
    quick_start
-   FAQ
+   faq
    support_services
    help
 
