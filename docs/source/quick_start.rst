@@ -4,20 +4,11 @@
 Quick Start Guide
 ===================
 
-This quick start guide includes the topics needed to get a new user started using XXX. For more detailed topic discussions, see the :ref:`user_guide`.
+This information is for users who are adept at using an HPC system and are only interested in the basic XXXXX workflow.
 
-.. contents:: Table of contents
-   :local:
-   :backlinks: entry
-   :depth: 2
-
-
-1. How to do X
------------
-
-How to do X :ref:`section1` .
-
-2. How to do Y
-----------------
-
-How to do Y :ref:`section3` .
+#. Account management (ACCESS and non-ACCESS)
+#. Accessing the system 
+#. Partitions and job policies
+#. Batch job management
+#. Sample scripts
+#. Transferring data to and from the XXXXX system
