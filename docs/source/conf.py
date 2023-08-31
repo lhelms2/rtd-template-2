@@ -34,6 +34,10 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
+# -- custom css
+html_css_files = [
+    'css/custom.css',
+]
 
 # -- Logo 
 html_static_path = ['_static']
