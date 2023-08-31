@@ -37,8 +37,8 @@ epub_show_urls = 'footnote'
 
 # -- Logo 
 html_static_path = ['_static']
-# html_logo = "images/BlockI-NCSA-Full-Color-RGB.png"
-html_logo = "images/SUPER_FullColor_RGB.png"
+html_logo = "images/BlockI-NCSA-Full-Color-RGB.png"
+# html_logo = "images/SUPER_FullColor_RGB.png"
 html_theme_options = {
      'logo_only': True,
      'display_version': False,
