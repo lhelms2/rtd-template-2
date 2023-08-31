@@ -3,7 +3,7 @@
 Getting Help
 ==============
 
-To review frequently asked questions, see :ref:`FAQ`.
+To review frequently asked questions, see :ref:`faq`.
 
 How to Submit Support Requests
 ------------------------------------
