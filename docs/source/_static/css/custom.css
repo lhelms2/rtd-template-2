@@ -1,31 +1,32 @@
+/* setting width to 90% */
 .wy-nav-content {
     max-width: 90% !important;
 }
 
-/* Clicking on the OLCF logo does nothing 
-   (disable RTD theme's default <a> behavior) */
+/* making logo non-clicable */
 body > div > nav > div > div.wy-side-nav-search > a{
     pointer-events: none;
     cursor: default;
 }
 
-/* Supersede the above block, and allow the Docs Home link to be clickable */
+/* making documentation home page heading clickable */
 body > div > nav > div > div.wy-side-nav-search > a > a{
     pointer-events: auto !important;
     cursor: pointer !important;
     color: white !important;
 }
 
-/* Don't let the color of the Docs Home link change. */
+/* keeping color of documentation home page heading white */
 body > div > nav > div > div.wy-side-nav-search > a > a:visited{
     color: white !important;
 }
 
-/* Docs Home link hover color */
+/* making logo hover color the same as background */
 body > div > nav > div > div.wy-side-nav-search > a:hover{
     background: #2980b9 !important;
 }
 
+/* making documentation home page heading hover color the same as background */
 body > div > nav > div > div.wy-side-nav-search > a > a:hover{
     background: #2980b9 !important;
 }
