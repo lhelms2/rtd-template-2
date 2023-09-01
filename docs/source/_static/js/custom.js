@@ -8,6 +8,6 @@ $( document ).ready(function() {
   project_name_link.classList.add("icon");
   project_name_link.classList.add("icon-home");
   wysidenavsearch = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a > logo");
-  wysidenavsearch.insertBefore(project_name_link, null);
+  wysidenavsearch.appendChild(project_name_link);
 
 });
