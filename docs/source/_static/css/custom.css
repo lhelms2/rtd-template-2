@@ -3,20 +3,3 @@
 }
 
 
-
-/* Supersede the above block, and allow the Docs Home link to be clickable */
-body > div > nav > div > div.wy-side-nav-search > a{
-    pointer-events: auto !important;
-    cursor: pointer !important;
-    color: white !important;
-}
-
-/* Don't let the color of the Docs Home link change. */
-body > div > nav > div > div.wy-side-nav-search > a:visited{
-    color: white !important;
-}
-
-/* Docs Home link hover color */
-body > div > nav > div > div.wy-side-nav-search > a:hover{
-    background: #2980b9 !important;
-}
