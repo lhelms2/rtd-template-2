@@ -16,7 +16,7 @@ body > div > nav > div > div.wy-side-nav-search > a{
 
 /* Supersede the above block, and allow the Docs Home link to be clickable */
 body > div > nav > div > div.wy-side-nav-search > a > a{
-    pointer-events: auto !important;
+    pointer-events: none !important;
     cursor: pointer !important;
     color: white !important;
 }
