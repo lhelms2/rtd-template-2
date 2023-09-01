@@ -2,24 +2,29 @@
     max-width: 90% !important;
 }
 
+/* Clicking on the OLCF logo does nothing 
+   (disable RTD theme's default <a> behavior) */
 body > div > nav > div > div.wy-side-nav-search > a{
     pointer-events: none;
     cursor: default;
-    background: #2980b9 !important;
 }
 
+/* Supersede the above block, and allow the Docs Home link to be clickable */
 body > div > nav > div > div.wy-side-nav-search > a > a{
     pointer-events: auto !important;
-    cursor: default !important;
-    background: #2980b9 !important;
+    cursor: pointer !important;
+    color: grey !important;
 }
 
 /* Don't let the color of the Docs Home link change. */
 body > div > nav > div > div.wy-side-nav-search > a > a:visited{
-    color: white !important;
+    color: grey !important;
 }
 
 /* Docs Home link hover color */
 body > div > nav > div > div.wy-side-nav-search > a:hover{
     background: #2980b9 !important;
 }
+
+
+
