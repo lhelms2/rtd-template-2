@@ -2,7 +2,7 @@
     max-width: 90% !important;
 }
 
-body > div > nav > div > div.wy-side-nav-search > a{
+body > div > nav > div > div.wy-side-nav-search > a.icon.icon-home {
     pointer-events: none;
     cursor: default;
     background: #2980b9 !important;
