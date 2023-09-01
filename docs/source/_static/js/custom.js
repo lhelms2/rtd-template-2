@@ -11,6 +11,6 @@ $( document ).ready(function() {
   wysidenavsearcha = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a");
   wysidenavsearch.insertBefore(project_name_link, wysidenavsearcha);
 
-  var image_class = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a[0]")
+  var image_class = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a > a")
   image_class.classList.add("image");
 });
