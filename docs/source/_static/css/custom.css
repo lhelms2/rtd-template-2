@@ -2,14 +2,24 @@
     max-width: 90% !important;
 }
 
-body > div > nav > div > div.wy-side-nav-search > a.icon.icon-home{
+body > div > nav > div > div.wy-side-nav-search > a{
     pointer-events: none;
     cursor: default;
     background: #2980b9 !important;
 }
 
-body > div > nav > div > div.wy-side-nav-search > a > img.logo{
-    pointer-events: none;
-    cursor: default;
+body > div > nav > div > div.wy-side-nav-search > a > a{
+    pointer-events: auto !important;
+    cursor: default !important;
+    background: #2980b9 !important;
+}
+
+/* Don't let the color of the Docs Home link change. */
+body > div > nav > div > div.wy-side-nav-search > a > a:visited{
+    color: white !important;
+}
+
+/* Docs Home link hover color */
+body > div > nav > div > div.wy-side-nav-search > a:hover{
     background: #2980b9 !important;
 }
