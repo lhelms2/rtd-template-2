@@ -10,4 +10,16 @@ $( document ).ready(function() {
   wysidenavsearch = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a");
   wysidenavsearch.appendChild(project_name_link);
 
+  var arr = [1,0];
+  var wy-side-nav-search = document.getElementsByClassName("wy-side-nav-search");
+  var items = wy-side-nav-search[0].children;
+  var elements = document.createDocumentFragment();
+
+  arr.forEach(function(idx) {
+      elements.appendChild(items[idx].cloneNode(true));
+  });
+
+  wrapper[0].innerHTML = null;
+  wrapper[0].appendChild(elements);
+
 });
