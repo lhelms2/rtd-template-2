@@ -2,13 +2,7 @@
     max-width: 90% !important;
 }
 
-/* Clicking on the logo does nothing 
-   (disable RTD theme's default <a> behavior) */
-body > div > nav > div > div.wy-side-nav-search > a{
-    pointer-events: none;
-    cursor: default;
-    background: #2980b9 !important;
-}
+
 
 /* Supersede the above block, and allow the Docs Home link to be clickable */
 body > div > nav > div > div.wy-side-nav-search > a.icon{
