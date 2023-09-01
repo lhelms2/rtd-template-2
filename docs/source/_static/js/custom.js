@@ -7,19 +7,7 @@ $( document ).ready(function() {
   project_name_link.setAttribute("href", "https://lhelms2-rtd-template-2.readthedocs.io/en/logo-test/#");
   project_name_link.classList.add("icon");
   project_name_link.classList.add("icon-home");
-  wysidenavsearch = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a");
-  wysidenavsearch.appendChild(project_name_link);
-
-  var arr = [1,0];
-  var wy-side-nav-search = document.getElementsByClassName("wy-side-nav-search");
-  var items = wy-side-nav-search[0].children;
-  var elements = document.createDocumentFragment();
-
-  arr.forEach(function(idx) {
-      elements.appendChild(items[idx].cloneNode(true));
-  });
-
-  wrapper[0].innerHTML = null;
-  wrapper[0].appendChild(elements);
+  wysidenavsearch = document.querySelector("body > div > nav > div > div.wy-side-nav-search");
+  wysidenavsearch.insertBefore(project_name_link, wy-side-nav-search.a);
 
 });
