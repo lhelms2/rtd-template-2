@@ -5,7 +5,7 @@
 
 
 /* Supersede the above block, and allow the Docs Home link to be clickable */
-body > div > nav > div > div.wy-side-nav-search > a.icon{
+body > div > nav > div > div.wy-side-nav-search > a{
     pointer-events: auto !important;
     cursor: pointer !important;
     color: white !important;
