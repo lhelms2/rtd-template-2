@@ -7,6 +7,6 @@ $( document ).ready(function() {
   project_name_link.setAttribute("href", "https://lhelms2-rtd-template-2.readthedocs.io/en/logo-test/#");
   project_name_link.classList.add("icon");
   project_name_link.classList.add("icon-home");
-  wysidenavsearch.insertBefore(project_name_link, "body > div > nav > div > div.wy-side-nav-search > a");
+  wysidenavsearch.insertBefore(project_name_link, body > div > nav > div > div.wy-side-nav-search > a);
 
 });
