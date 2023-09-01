@@ -8,7 +8,7 @@ body > div > nav > div > div.wy-side-nav-search > a.icon.icon-home{
     background: #2980b9 !important;
 }
 
-body > div > nav > div > div.wy-side-nav-search > a{
+body > div > nav > div > div.wy-side-nav-search > a > img.logo{
     pointer-events: none;
     cursor: default;
     background: #2980b9 !important;
