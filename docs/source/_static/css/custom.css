@@ -23,7 +23,7 @@ body > div > nav > div > div.wy-side-nav-search > a > a{
 
 /* Don't let the color of the Docs Home link change. */
 body > div > nav > div > div.wy-side-nav-search > a > a:visited{
-    color: grey !important;
+    color: white !important;
 }
 
 /* override table width restrictions */
