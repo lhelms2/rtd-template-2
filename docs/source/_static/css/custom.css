@@ -23,5 +23,5 @@ body > div > nav > div > div.wy-side-nav-search > a > a:visited{
 
 /* Don't let the color of the Docs Home link change. */
 body > div > nav > div > div.wy-side-nav-search > a > a:hover{
-    background: default !important;
+    background: #2980b9 !important;
 }
