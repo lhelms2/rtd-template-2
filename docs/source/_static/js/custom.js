@@ -5,7 +5,7 @@ $( document ).ready(function() {
   element.setAttribute("href", link);
   element.setAttribute("class", "icon icon-home");
   element.innerHTML = " XXXXX User Documentation"
-  wysidenavsearch = document.querySelector("body > div > nav > div > div.wy-side-nav-search > a");
+  wysidenavsearch = document.querySelector("body > div > nav > div > div.wy-side-nav-search");
   wysidenavsearch.appendChild(element);
 
 });
