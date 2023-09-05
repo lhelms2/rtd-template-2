@@ -9,7 +9,12 @@ body > div > nav > div > div.wy-side-nav-search > a{
     cursor: default;
 }
 
-/* making docs home page heading clickable */
+/* making logo hover color the same as background */
+body > div > nav > div > div.wy-side-nav-search > a:hover{
+    background: #2980b9 !important;
+}
+
+/* making home page heading clickable */
 body > div > nav > div > div.wy-side-nav-search > a > a{
     pointer-events: auto !important;
     cursor: pointer !important;
@@ -19,11 +24,6 @@ body > div > nav > div > div.wy-side-nav-search > a > a{
 /* keeping color of docs home page heading text white */
 body > div > nav > div > div.wy-side-nav-search > a > a:visited{
     color: white !important;
-}
-
-/* making logo hover color the same as background */
-body > div > nav > div > div.wy-side-nav-search > a:hover{
-    background: #2980b9 !important;
 }
 
 /* making docs home page heading hover color the same as background */
