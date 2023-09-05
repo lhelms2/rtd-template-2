@@ -3,20 +3,20 @@
     max-width: 90% !important;
 }
 
-/* making logo non-clicable */
+/* making logo non-clickable */
 body > div > nav > div > div.wy-side-nav-search > a{
     pointer-events: none;
     cursor: default;
 }
 
-/* making documentation home page heading clickable */
+/* making docs home page heading clickable */
 body > div > nav > div > div.wy-side-nav-search > a > a{
     pointer-events: auto !important;
     cursor: pointer !important;
     color: white !important;
 }
 
-/* keeping color of documentation home page heading white */
+/* keeping color of docs home page heading text white */
 body > div > nav > div > div.wy-side-nav-search > a > a:visited{
     color: white !important;
 }
@@ -26,7 +26,7 @@ body > div > nav > div > div.wy-side-nav-search > a:hover{
     background: #2980b9 !important;
 }
 
-/* making documentation home page heading hover color the same as background */
+/* making docs home page heading hover color the same as background */
 body > div > nav > div > div.wy-side-nav-search > a > a:hover{
     background: #2980b9 !important;
 }
