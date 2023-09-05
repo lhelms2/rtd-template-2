@@ -46,7 +46,7 @@ html_js_files = [
 # -- Logo 
 html_static_path = ['_static']
 # html_logo = "images/BlockI-NCSA-Full-Color-RGB.png"
-html_logo = "images/BlockI-NCSA-Full-Color-RGB_border6.png"
+html_logo = "images/BlockI-NCSA-Full-Color-RGB_border5.png"
 # html_logo = "images/SUPER_FullColor_RGB.png"
 html_theme_options = {
      'logo_only': True,
