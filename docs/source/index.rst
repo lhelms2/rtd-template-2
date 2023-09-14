@@ -53,3 +53,4 @@ You can also browse the full list of NCSA's `HPC-Moodle Self-Paced Tutorials <ht
    user_guide/debug_perf
    user_guide/analysis
    user_guide/protected_data
+   test_page
