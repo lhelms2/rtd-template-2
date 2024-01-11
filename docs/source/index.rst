@@ -14,13 +14,6 @@ Status Updates and Notices
 
 Here's the links.
 
-Getting Started with High-Performance Computing
-================================================
-
-**There are no specific prerequisite courses or high-performance computing (HPC) experience required before using XXXX.** However, if you are unfamiliar with using a HPC cluster, it is highly recommended that you take NCSA’s short tutorial `Using an HPC Cluster for Scientific Applications <https://www.hpc-training.org/xsede/moodle/enrol/index.php?id=71>`_ before continuing.
-
-You can also browse the full list of NCSA's `HPC-Moodle Self-Paced Tutorials <https://www.hpc-training.org/xsede/moodle/course/index.php?categoryid=11>`_ to learn more about other HPC topics.
-
 ==================
 
 .. toctree::
